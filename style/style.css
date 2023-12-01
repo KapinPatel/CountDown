@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 32, 32);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+form>div{
+    padding: 40px;
+    height: 50%;
+    width: 60%;
+    align-items: center;
+}
+form>div>div>input{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
